@@ -48,6 +48,6 @@ On Target Machine
  ```bash
  python client.py &
  python publish.py 
- enter capture command 
+ enter capture
  ```
 
