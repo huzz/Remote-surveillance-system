@@ -3,7 +3,7 @@
 
 import paho.mqtt.publish as publish
 
-print("please enter msg:")
+print("please type capture:")
 msg = raw_input()
 publish.single("mqtt/test", msg, hostname="test.mosquitto.org")
 publish.single("mqtt/topic", "World!", hostname="test.mosquitto.org")
