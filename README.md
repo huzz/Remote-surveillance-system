@@ -44,7 +44,7 @@ On Target Machine
  ```bash
  python client_publish.py
  ```
-On Target Machine
+On Host Machine
  ```bash
  python client.py &
  python publish.py 
